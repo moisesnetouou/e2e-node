@@ -5,6 +5,9 @@ interface CreateLessonRequest {
   description?: string;
 }
 
+// Command/Query Segreagation
+// Escrita/Update/Delete SEM RETORNO (Comandos)
+// Query
 
 export class CreateLesson {
   constructor(
